@@ -1,0 +1,125 @@
+:root {
+  --bg: #0b0f1a;
+  --panel: #11162a;
+  --panel-2: #151b34;
+  --accent: #6c8cff;
+  --text: #e6e8f0;
+  --muted: #9aa0c2;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* TOP BAR */
+#topbar {
+  height: 56px;
+  background: var(--panel);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 16px;
+  border-bottom: 1px solid #1e2445;
+}
+
+#topbar h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.top-btn {
+  background: var(--panel-2);
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.top-btn:hover {
+  background: var(--accent);
+}
+
+/* LAYOUT */
+#app {
+  display: flex;
+  height: calc(100vh - 56px);
+}
+
+/* LEFT TOOLBAR */
+#tools {
+  width: 72px;
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0;
+  gap: 10px;
+  border-right: 1px solid #1e2445;
+}
+
+.tool {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--panel-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tool.active,
+.tool:hover {
+  background: var(--accent);
+}
+
+/* CANVAS AREA */
+#canvas-wrap {
+  flex: 1;
+  position: relative;
+  background:
+    linear-gradient(#f1f1f1 1px, transparent 1px),
+    linear-gradient(90deg, #f1f1f1 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+canvas {
+  background: white;
+  margin: 20px;
+  border-radius: 14px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.25);
+}
+
+/* RIGHT PANEL */
+#props {
+  width: 260px;
+  background: var(--panel);
+  padding: 16px;
+  border-left: 1px solid #1e2445;
+}
+
+.prop {
+  margin-bottom: 14px;
+}
+
+label {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+input, select {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  background: var(--panel-2);
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
