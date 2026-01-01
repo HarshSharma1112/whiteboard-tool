@@ -1,5 +1,5 @@
 # whiteboard-tool
-# ⚒️ ForgeBoard — Advanced Online Whiteboard
+# ForgeBoard — Advanced Online Whiteboard
 
 ForgeBoard is a modern, Canva-style online whiteboard built using **HTML5 Canvas and Vanilla JavaScript**.  
 It features a professional UI and smooth drawing experience inspired by tools like Canva, Miro, and Excalidraw.
@@ -8,7 +8,7 @@ This project was developed as part of the **Hephaestus’ Forge Workspace (White
 
 ---
 
-## ✨ Features
+## Features
 
 - Canva-style professional UI
 - Dark theme interface with grid canvas
@@ -24,7 +24,7 @@ This project was developed as part of the **Hephaestus’ Forge Workspace (White
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - HTML5
 - CSS3
@@ -34,7 +34,7 @@ This project was developed as part of the **Hephaestus’ Forge Workspace (White
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 forgeboard/
 │
@@ -45,7 +45,7 @@ forgeboard/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository https://github.com/HarshSharma1112/whiteboard-tool
 
@@ -56,7 +56,7 @@ No installation or build steps required.
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 The project can be deployed easily on:
 - GitHub Pages
@@ -83,11 +83,6 @@ Simply upload the files and deploy as a static site.
 
 ## 👤 Author
 
-Your Name  
-Undergraduate Student
+Harsh Sharma
+IITR
 
----
-
-## 📜 License
-
-MIT License
